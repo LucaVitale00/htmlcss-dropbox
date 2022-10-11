@@ -16,6 +16,9 @@ body {
     margin: 5% auto;
 }
 
+#logoimg{
+    width: auto;
+}
 /* per centrare contenuto banner e footer */
 .container {
     width: 80%;
