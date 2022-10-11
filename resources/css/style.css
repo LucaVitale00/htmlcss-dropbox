@@ -16,9 +16,7 @@ body {
     margin: 5% auto;
 }
 
-#logoimg{
-    width: auto;
-}
+
 /* per centrare contenuto banner e footer */
 .container {
     width: 80%;
@@ -105,6 +103,10 @@ header nav {
     float: left;
     width: 10%;
     padding: 0.2% 0 0 1%;
+}
+
+#logoimg{
+    width: auto;
 }
 
 header nav ul li {
