@@ -1,0 +1,419 @@
+/* generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+/* per centrare le varie sezioni della pagina */
+.centratura {
+    width: 75%;
+    margin: 5% auto;
+}
+
+/* per centrare contenuto banner e footer */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+.btn-blu {
+    background-color: #0061ff;
+    color: white;
+    display: block;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+h1 {
+    font-size: 7em;
+    font-weight: 700;
+    padding: 3% 0;
+}
+
+h2 {
+    font-size: 4em;
+    padding: 2% 0;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+span {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+a {
+    line-height: 1.6;
+    text-decoration: none;
+    color: black;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* header */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1% 0;
+    background-color: white;
+}
+
+/* header nav */
+header nav {
+    width: 42%;
+    margin-right: 2%;
+}
+
+#left {
+    float: left;
+    text-align: left; 
+}
+
+#right {
+    float: right;
+    text-align: right;
+}
+
+#logo {
+    float: left;
+    width: 10%;
+    padding: 0.2% 0 0 1%;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 2%;
+    line-height: 4;
+    vertical-align: middle;
+}
+
+header nav ul li a {
+    font-size: 1.5em;
+    padding-bottom: 25px;
+}
+
+header nav ul li a:hover {
+    border-bottom: 4px solid black;
+}
+
+#inizia {
+    padding: 20% 40%;
+}
+
+#inizia:hover {
+    background-color: #0093ce;
+    border-bottom: none;
+}
+
+/* banner */
+#banner {
+    width: 100%;
+    padding-top: 100px;
+    margin-bottom: 10%;
+    background-color: #b4d0e7;
+    height: fit-content;
+}
+
+/* banner col sx */
+.col-left {
+    float: left;
+    width: 35%;
+}
+
+#prova-gratuita {
+    font-size: 1.5em;
+    padding: 1% 2%;
+    margin: 5% 0 1% 0;
+}
+
+.freccia-banner {
+    font-size: 2em;
+    margin-top: 5%;
+}
+
+/* banner col dx */
+.col-right {
+    float: right;
+    width: 65%;
+    height: 370px;
+}
+
+.col-right img {
+    width: 100%;
+}
+
+/* piani dropbox business */
+.fatturazione {
+    padding: 2% 0 2% 0;
+    margin-right: 1%;
+}
+
+.fatturazione::before {
+    content: "\026AC";
+    font-size: 1.5em;
+    color: #dddde0;
+    padding-right: 0.5%;
+}
+
+.piani {
+    float: left;
+    width: calc(90% / 3);
+    margin: 2% 0;
+}
+
+.col-center {
+    margin: 2% 5%;
+}
+
+.icon {
+    padding: 0 1%;
+}
+
+.utente-piano {
+    border: 1px solid #dddde0;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.dettagli-piano {
+    padding: 0 5%;
+    border: 1px solid #dddde0;
+    border-top: none;
+}
+
+.piani h3 {
+    padding: 5% 0 3% 0;
+}
+
+.piani span {
+    display: block;
+}
+
+.prezzo {
+    font-weight: bold;
+    padding: 2% 0;
+}
+
+.condizioni {
+    color: #dddde0;
+}
+
+.highlite {
+    padding: 10% 0;
+    margin-left: 7%;
+}
+
+.highlite li {
+    font-size: 1.5em;
+    padding-bottom: 7%;
+}
+
+.user {
+    list-style-image: url('../img/icone/user-regular.svg');
+}
+
+.folder {
+    list-style-image: url('../img/icone/folder-regular.svg');
+}
+
+.pencil {
+    list-style-image: url('../img/icone/pencil-alt-solid.svg');
+}
+
+.user-plus {
+    list-style-image: url('../img/icone/user-plus-solid.svg');
+}
+
+.smile {
+    list-style-image: url('../img/icone/smile-regular.svg');
+}
+
+.btn-30-gg {
+    display: block;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+}
+
+.acquista-ora {
+    padding: 8% 0;
+}
+
+.acquista-ora a {
+    font-weight: bold;
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+hr {
+    width: 15%;
+}
+
+.piani h4 {
+    padding: 8% 0 4% 0;
+}
+
+.dettagli {
+    padding-bottom: 2%;
+    list-style-image: url('../img/icone/check-solid.svg');
+    margin-left: 7%;
+}
+
+.dettagli li {
+    padding-bottom: 5%;
+    font-size: 1.5em;
+}
+
+.blu {
+    color: #0061ff;
+}
+
+.no-float {
+    margin: 2% 0;
+    border: 1px solid #dddde0;
+}
+
+.utente-team {
+    border-bottom: 1px solid #dddde0;
+    font-size: 1.5em;
+    padding: 1% 0;
+    text-align: center;
+}
+
+#building-icon {
+    padding: 0 0.3%;
+}
+
+.corpo-utente-team {
+    padding: 2%;
+}
+
+.corpo-utente-team h3 {
+    float: left;
+}
+
+.ufficio-vendite {
+    float: right;
+    padding: 0.5% 5%;
+    font-size: 1.5em;
+}
+
+.corpo-utente-team h4 {
+    padding: 1% 0;
+}
+
+/* partner dropbox */
+.partner {
+    width: 60%;
+    float: left;
+}
+
+.text-col {
+    width: 40%;
+    float: right;
+    padding: 10% 0 10% 5%;
+}
+
+.text-col p {
+    padding: 5% 0;
+}
+
+.text-col a {
+    font-size: 1.5em;
+    display: block;
+    padding: 2% 5%;
+    border: 1px solid black;
+    text-decoration: none;
+    width: fit-content;
+}
+
+/* operazioni dropbox business */
+.piani img {
+    width: 100%;
+}
+
+.piani p {
+    padding: 5% 0;
+}
+
+/* team utilizzano dropbox business */
+#clienti {
+    display: block;
+    color: #0061ff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+/* parte superiore footer */
+.info {
+    float: left;
+    width: calc(96% / 5);
+    margin-right: 1%;
+}
+
+#community {
+    margin-right: 0;
+}
+
+.info h3 {
+    padding: 3% 0;
+    color: white;
+}
+
+.info ul li {
+    list-style-type: none;
+    padding: 2% 0;
+}
+
+.info ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+/* parte inferiore footer */
+.lingua {
+    width: 10%;
+    border-top: 2px solid #5b5b5b;
+    padding: 3% 0;
+}
+
+.lingua span {
+    color: #5b5b5b;
+    font-size: 1.2em;
+    padding: 0.5% 0;
+}
